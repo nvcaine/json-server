@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9_-]+)\.(json)$ index.php?service=$1&format=$2
+RewriteRule ^([a-zA-Z0-9_-]+)\/([a-zA-Z0-9_-]+)\.(json)$ index.php?service=$1&item=$2&format=$3

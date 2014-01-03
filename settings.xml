@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+    <sections>
+        <section>
+            <sectionName>users</sectionName>
+            <templateName>users</templateName>
+        </section>
+        <section>
+            <sectionName>posts</sectionName>
+            <templateName>posts</templateName>
+        </section>
+    </sections>
+
+    <defaultSection>users</defaultSection>
+
+    <appURL>http://localhost/serv-demo/</appURL>
+</settings>
