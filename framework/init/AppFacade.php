@@ -1,4 +1,7 @@
 <?php
+/*
+ * This class is responsible for linking app-specific logic to the framework.
+ */ 
 class AppFacade
 {
 	protected $smarty;
